@@ -1,0 +1,209 @@
+
+
+/* utility */
+html.sr .load-hidden {
+    visibility: hidden;
+  }
+  
+html {
+    scroll-behavior: smooth; 
+  } 
+body{
+margin:0;
+font-family: 'Hind', sans-serif;
+}
+
+ 
+#hero {
+background: url(../images/Hero-image.png)no-repeat center #000000;
+background-size: cover;
+height: 730px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px
+}
+header {margin: 0 auto;
+    height: 130px;
+    padding-top: 55px;
+    position: relative;
+}
+
+#logo {
+    float: left; 
+    width: 100px; 
+    height: 55px;
+    display: inline-block;
+}
+nav {
+    float: right;
+    }
+
+nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-left: 48px;
+    font-family: 'hind', sans-serif;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+nav ul li:hover {
+    color: #D8FC79;    
+
+}
+
+h1 {
+    font-family: 'hind', sans-serif;
+    font-size: 35px; 
+    line-height: 45px;
+    /* margin-top: 150px; */
+    color: #C9D6DF;
+    font-weight: 400;
+    max-width: 780px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; 
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #52616B;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h3 {
+font-size: 40px;
+line-height: 50px;
+margin-top: 0;
+}
+
+p {
+    font-size: 25px; line-height: 35px;
+}
+
+ a.button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;  
+    padding: 15px 20px 10px; 
+    font-size: 30px;
+    transition: background-color .4s ease-in-out;
+    -webkit-transition: background-color .4s ease-in-out;
+}
+
+a.main-btn {
+    background-color: #D8FC79;
+    color: #000;
+
+}
+
+a.main-btn:hover {
+    background-color: #000000;
+    color: #D8FC79;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+}
+
+
+a.second-btn {
+    background-color: #000000;
+    color: #D8FC79;
+}
+
+a.second-btn:hover {
+    background-color: #D8FC79;
+    color: #000;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+}
+
+.narrow-text {
+    width: 945px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* DARK SECTIONS */
+.dark {background: #000; padding: 40px 0 80px}
+.dark .container h2 {color: #D8FC79 !important;}
+.dark p {color: white;}
+
+
+/* SKILLS SECTION */
+
+#skills {
+    background-image: url(../images/bg-process.png); 
+    background-size: cover;
+
+}
+#skillList { 
+    display: flex; 
+    margin: 10px 0;
+   
+}
+.skillItem {
+    width: 33%; 
+    text-align: center;
+    margin: 55px
+}
+
+.image-bg{
+    width: 103px; height: 103px; margin: 0 auto;
+    background-image: url(../images/Ellipse-green.png);
+    display: flex; /*3 line of code to perfectly align the icon in center of circle*/
+    align-items: center; /* line 2/3 */
+    justify-content: center; /*line 3/3*/
+}
+
+
+
+
+/* PROCESS */
+
+#process {
+    background-color: #000;
+    }
+
+
+
+
+
+.centered-img {
+    display: block;
+    margin: 0 auto;
+    padding: 60px 0
+}
+
+#projectPreviews{ /*flexbox parent*/
+    display: flex; /*flexbox must 1*/
+    flex-wrap: wrap; /*flexbox must 2, gets item to next rows*/
+    margin: 0 20px;
+    align-items: center;/*align content vertically centered*/
+}
+
+.projectPreview-img, .projectPreview-info{ /*flexbox children*/
+width: 50%; /*flexbox must 3, define width*/
+margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* work */
+
+.marg-info {
+    width: calc(50% - 140px);
+    margin-left: 135px;
+}
